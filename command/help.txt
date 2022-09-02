@@ -1,0 +1,18 @@
+'picopy' stands for 'pic copy' (picture copy)
+
+usage:
+  picopy <command> <argument_list>
+
+commands:
+  backup  copy picture from_dir to_dir
+  help    display this help text
+
+syntax:
+  picopy backup <from_dir> <to_dir>
+  picopy help
+
+examples:
+  picopy backup /phone/pictures /home/user/phone_backup
+  picopy help
+
+version: 0.1.0
